@@ -1,10 +1,10 @@
 const App = () => {
   return (
    <>
-   <Header />
-   <Header author='Oleg' message='Hello!' isOnline={true}/>
-   <Header author='Sasha' message='How are you?' isOnline={false}/>
-   <Header author='Ann' message='when?' isOnline={true}/>
+<div>
+  <h3>Hello!</h3>
+<p>Lorem ipsum</p>
+</div>
   </>
   );
 };
