@@ -1,8 +1,15 @@
+
+
+
+
+
 const App = () => {
   return (
    <>
-    <h2>Hello world! Brah brah brah </h2>
-    <button>Click</button>
+   <Header/>
+   <Header author='Oleg' message='Hello!' isOnline={true}/>
+   <Header author='Sasha' message='How are you?' isOnline={false}/>
+   <Header author='Ann' message='when?' isOnline={true}/>
   </>
   );
 };
