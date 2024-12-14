@@ -1,6 +1,3 @@
-import Header from "./Components/Header/header";
-
-
 const App = () => {
   return (
    <>
