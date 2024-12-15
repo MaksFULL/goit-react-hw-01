@@ -1,4 +1,5 @@
-
+import CSS from './FriendList.module.css'
+import FriendListItem from "../FriendListItem/FriendListItem";
 
 
 const FriendList = ({ friends }) => {
@@ -11,3 +12,5 @@ const FriendList = ({ friends }) => {
     </ul>    
 
 }
+
+export default FriendList
